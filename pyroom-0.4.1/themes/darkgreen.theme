@@ -1,0 +1,10 @@
+[theme]
+name = Dark Green 
+background = #000000
+textboxbg = #000000
+foreground = #007700
+border = #001100
+info = #007700
+padding = 8
+width = 0.45 
+height = 0.75

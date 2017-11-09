@@ -1,0 +1,10 @@
+[theme]
+name = Green
+background = #000000
+textboxbg = #000000
+foreground = #00ff00
+border = #003300
+info = #00ff00
+padding = 8
+width = 0.45 
+height = 0.75

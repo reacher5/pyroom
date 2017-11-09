@@ -1,0 +1,381 @@
+# Irish translation for pyroom
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the pyroom package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pyroom\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-02-27 11:29+0100\n"
+"PO-Revision-Date: 2009-03-17 00:54+0000\n"
+"Last-Translator: Florian Heinle <launchpad@planet-tiax.de>\n"
+"Language-Team: Irish <ga@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-04-02 13:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: trunk/PyRoom/interface.glade.h:2
+msgid " %"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:3
+msgid " minutes."
+msgstr " nóiméid"
+
+#: trunk/PyRoom/interface.glade.h:4
+msgid "<b>Autosave</b>"
+msgstr "<b>Uath-Shábháil</b>"
+
+#: trunk/PyRoom/interface.glade.h:5
+msgid "<b>Display</b>"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:6
+msgid "<b>Text font</b>"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:7
+msgid "<b>Themes</b>"
+msgstr "<b>Téamaí</b>"
+
+#: trunk/PyRoom/interface.glade.h:8
+msgid ""
+"<b>Warning!</b>\n"
+"You are about to close your current document leaving unsaved changes. If you "
+"continue, any changes will be lost."
+msgstr ""
+"<b>Rabhadh!</b>\n"
+"Tá tú ar tí do chomhad a dhúnadh ach níl gach athrú sábhálta. Má leanann tú "
+"ar aghaidh, caillfear iad."
+
+#: trunk/PyRoom/interface.glade.h:10
+msgid ""
+"<b>Warning!</b>\n"
+"You are about to quit leaving documents with unsaved changes. If you "
+"continue, you will loose any changes that you have made."
+msgstr ""
+"<b>Rabhadh!</b>\n"
+"Tá tú ar tí do chomhaid a dhúnadh ach níl gach athrú sábhálta. Má leanann tú "
+"ar aghaidh, caillfear iad."
+
+#: trunk/PyRoom/interface.glade.h:12
+msgid "Autosave files every "
+msgstr "Uath-Shábháil comhaid gach "
+
+#: trunk/PyRoom/interface.glade.h:13
+msgid "Background color:"
+msgstr "Dath an chúlra:"
+
+#: trunk/PyRoom/interface.glade.h:14
+msgid "Border color:"
+msgstr "Dath na himlíne:"
+
+#: trunk/PyRoom/interface.glade.h:15
+msgid "Close without saving"
+msgstr "Dún gan sábháil"
+
+#: trunk/PyRoom/interface.glade.h:16
+msgid "Custom"
+msgstr "Saincheaptha"
+
+#: trunk/PyRoom/interface.glade.h:17
+msgid "Default _document font"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:18
+msgid "Default _monospace font"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:19
+msgid "General"
+msgstr "Ginearálta"
+
+#: trunk/PyRoom/interface.glade.h:20
+msgid "Height:"
+msgstr "Airde:"
+
+#: trunk/PyRoom/interface.glade.h:21
+msgid "Indent new paragraphs"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:22
+msgid "Modify line spacing (in pixels)"
+msgstr "Athraigh Spásáil Línte (i bpicteilíní)"
+
+#: trunk/PyRoom/interface.glade.h:23
+msgid "Padding:"
+msgstr "Stuáil:"
+
+#: trunk/PyRoom/interface.glade.h:24
+msgid "Presets:"
+msgstr "Réamhshocruithe:"
+
+#: trunk/PyRoom/interface.glade.h:25
+msgid "Pyroom Preferences"
+msgstr "Sainroghanna PyRoom"
+
+#: trunk/PyRoom/interface.glade.h:26
+msgid "Save changes?"
+msgstr "Sábháil athruithe?"
+
+#: trunk/PyRoom/interface.glade.h:27
+msgid "Select a font"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:28
+msgid "Show border"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:29
+msgid "Text color:"
+msgstr "Dath téacs:"
+
+#: trunk/PyRoom/interface.glade.h:30
+msgid "Textbox background"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:31
+msgid "Theme"
+msgstr "Téama"
+
+#: trunk/PyRoom/interface.glade.h:32
+msgid "Width:"
+msgstr "Leithead:"
+
+#: trunk/PyRoom/interface.glade.h:33
+msgid "_Custom font"
+msgstr ""
+
+#: trunk/PyRoom/interface.glade.h:34
+msgid "_Save"
+msgstr ""
+
+#: trunk/PyRoom/preferences.py:337
+msgid "Theme Files"
+msgstr ""
+
+#: trunk/PyRoom/preferences.py:383
+msgid "Could not save preferences file."
+msgstr "Níor féidir roghanna a sábháil."
+
+#: trunk/PyRoom/preferences.py:460
+#, python-format
+msgid "Style Changed to %s"
+msgstr "Stíl athruithe go %s"
+
+#: trunk/PyRoom/gui.py:42
+#, python-format
+msgid "theme not found: %s"
+msgstr ""
+
+#: trunk/PyRoom/pyroom_error.py:42
+msgid ""
+"There has been an uncaught exception in pyroom.\n"
+"\n"
+"This is most likely a programming error. Please submit a bug report to "
+"launchpad"
+msgstr ""
+"Gineadh eisceacht, ach ní dhífhadhbtaíonn éinne inár dteanga.\n"
+"\n"
+"An chúis is dóchúla ná ríomhchlárú olc. Le'd thoil seol tuairisc fadht chuig "
+"launchpad."
+
+#: trunk/PyRoom/pyroom_error.py:49
+msgid "Error"
+msgstr "Earráid"
+
+#: trunk/PyRoom/pyroom_error.py:52
+msgid "Details..."
+msgstr "Mionsonraí..."
+
+#: trunk/PyRoom/cmdline.py:64
+msgid "%prog [-v] [file1] [file2]..."
+msgstr ""
+
+#: trunk/PyRoom/cmdline.py:67
+msgid ""
+"PyRoom lets you edit text files simply and efficiently in a full-screen "
+"window, with no distractions."
+msgstr ""
+"Le PyRoom is féidir leat téacschomhaid a scríobhnú go símplí agus go "
+"éifeachtach, gan seachráin."
+
+#: trunk/PyRoom/cmdline.py:82
+#, python-format
+msgid "Welcome to Pyroom %s, type Control-H for help"
+msgstr "Fáilte go PyRoom %s, scríobh Control-H má tá cabhair uait"
+
+#: trunk/PyRoom/autosave.py:77
+#, python-format
+msgid "Could not autosave file %s"
+msgstr "Níor fheidir %s a uath-shábháil"
+
+#: trunk/PyRoom/basic_edit.py:38
+msgid "* Unnamed *"
+msgstr "* Gan Ainm *"
+
+#: trunk/PyRoom/basic_edit.py:41
+msgid "Control-H: Show help in a new buffer"
+msgstr "Ctrl-H: Taispeáin cabhair i maolán nua"
+
+#: trunk/PyRoom/basic_edit.py:42
+msgid "Control-I: Show buffer information"
+msgstr "Ctrl-I: Taispeáin eolas faoin maolán"
+
+#: trunk/PyRoom/basic_edit.py:43
+msgid "Control-P: Shows Preferences dialog"
+msgstr "Control-P: Taispeáin Sainroghanna"
+
+#: trunk/PyRoom/basic_edit.py:44
+msgid "Control-N: Create a new buffer"
+msgstr "Ctrl-N: Cruth maolán nua"
+
+#: trunk/PyRoom/basic_edit.py:45
+msgid "Control-O: Open a file in a new buffer"
+msgstr "Ctrl-O: Oscail comhad i maolán nua"
+
+#: trunk/PyRoom/basic_edit.py:46
+msgid "Control-Q: Quit"
+msgstr "Ctrl-Q: Scoir"
+
+#: trunk/PyRoom/basic_edit.py:47
+msgid "Control-S: Save current buffer"
+msgstr "Ctrl-S: Sábháil an maolán seo"
+
+#: trunk/PyRoom/basic_edit.py:48
+msgid "Control-Shift-S: Save current buffer as"
+msgstr "Ctrl-Shift-S: Sábháil an maolán seo faoin ainm"
+
+#: trunk/PyRoom/basic_edit.py:49
+msgid "Control-W: Close buffer and exit if it was the last buffer"
+msgstr "Ctrl-W: Dún an maolán agus scoir más maolán deireanach é"
+
+#: trunk/PyRoom/basic_edit.py:50
+msgid "Control-Y: Redo last typing"
+msgstr "Ctrl-Y: Ath-dhéan an clóscríobh is déanaí"
+
+#: trunk/PyRoom/basic_edit.py:51
+msgid "Control-Z: Undo last typing"
+msgstr "Ctrl-Z: Ceal an clóscríobh is déanaí"
+
+#: trunk/PyRoom/basic_edit.py:52
+msgid "Control-Page Up: Switch to previous buffer"
+msgstr "Ctrl-Page Up: Aistrigh don maolán roimhe seo"
+
+#: trunk/PyRoom/basic_edit.py:53
+msgid "Control-Page Down: Switch to next buffer"
+msgstr "Ctrl-Page Down: Aistrigh ar aghaidh"
+
+#: trunk/PyRoom/basic_edit.py:56
+#, python-format
+msgid ""
+"PyRoom - distraction free writing\n"
+"Copyright (c) 2007 Nicolas Rougier, NoWhereMan\n"
+"Copyright (c) 2008 Bruno Bord and the PyRoom team\n"
+"\n"
+"Welcome to PyRoom and distraction-free writing.\n"
+"\n"
+"To hide this help window, press Control-W.\n"
+"\n"
+"PyRoom stays out of your way with formatting options and buttons, \n"
+"it is largely keyboard controlled, via shortcuts. You can find a list\n"
+"of available keyboard shortcuts later.\n"
+"\n"
+"If enabled in preferences, pyroom will save your files automatically every\n"
+"few minutes or when you press the keyboard shortcut.\n"
+"\n"
+"Commands:\n"
+"---------\n"
+"%s\n"
+"\n"
+msgstr ""
+
+#: trunk/PyRoom/basic_edit.py:414
+msgid " (modified)"
+msgstr " (athraithe)"
+
+#: trunk/PyRoom/basic_edit.py:417
+#, python-format
+msgid ""
+"Buffer %(buffer_id)d: %(buffer_name)s%(status)s, %(char_count)d "
+"character(s), %(word_count)d word(s), %(lines)d line(s)"
+msgstr ""
+
+#: trunk/PyRoom/basic_edit.py:435
+msgid "Nothing more to undo!"
+msgstr "Faic chun ceallaigh"
+
+#: trunk/PyRoom/basic_edit.py:444
+msgid "Nothing more to redo!"
+msgstr "Faic le ath-dhéanamh"
+
+#: trunk/PyRoom/basic_edit.py:452
+msgid "Restore backup?"
+msgstr ""
+
+#: trunk/PyRoom/basic_edit.py:461
+msgid ""
+"Backup information for this file has been found.\n"
+"Open those instead of the original file?"
+msgstr ""
+
+#: trunk/PyRoom/basic_edit.py:499 trunk/PyRoom/basic_edit.py:592
+msgid "Closed, no files selected"
+msgstr "Dúnta, níl aon comhaid roghta"
+
+#: trunk/PyRoom/basic_edit.py:528
+#, python-format
+msgid "Unable to open %(filename)s."
+msgstr "Níor fheidir %(filename)s a oscailt."
+
+#: trunk/PyRoom/basic_edit.py:532
+msgid " You do not have permission to open the file."
+msgstr " Níl cead agat an comhad a oscailt"
+
+#: trunk/PyRoom/basic_edit.py:537
+#, python-format
+msgid "Unable to open %s\n"
+msgstr "Ní féidir %s a oscailt\n"
+
+#: trunk/PyRoom/basic_edit.py:539
+#, python-format
+msgid "File %s open"
+msgstr "Comhad %s oscailte"
+
+#: trunk/PyRoom/basic_edit.py:563
+#, python-format
+msgid "File %s saved"
+msgstr "Comhad %s sábháilte"
+
+#: trunk/PyRoom/basic_edit.py:567
+#, python-format
+msgid "Unable to save %(filename)s."
+msgstr "Níor fhéidir %(filename)s a sábháil"
+
+#: trunk/PyRoom/basic_edit.py:570
+msgid " You do not have permission to write to the file."
+msgstr " Níl cead agat an comhad a athrú"
+
+#: trunk/PyRoom/basic_edit.py:574
+#, python-format
+msgid "Unable to save %s\n"
+msgstr "Níor fheidir %s a sábháil\n"
+
+#: trunk/PyRoom/basic_edit.py:659
+msgid "Could not delete autosave file."
+msgstr ""
+
+#: trunk/PyRoom/basic_edit.py:676
+#, python-format
+msgid "Switching to buffer %(buffer_id)d (%(buffer_name)s)"
+msgstr "Ag aistriú go maolán %(buffer_id)d (%(buffer_name)s)"
+
+#~ msgid ""
+#~ "Buffer %(buffer_id)d: %(buffer_name)s%(status)s, %(char_count)d byte(s), "
+#~ "%(word_count)d word(s), %(lines)d line(s)"
+#~ msgstr ""
+#~ "Maolán %(buffer_id)d: %(buffer_name)s%(status)s, %(char_count)d byte(s), "
+#~ "%(word_count)d word(s), %(lines)d line(s)"

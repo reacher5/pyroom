@@ -1,0 +1,93 @@
+pyroom 0.4.1 (2009-04-06)
+=========================
+Updated tarball with fixed installer
+ 
+Bugfixes
+--------
+* fix locales installation (LP:#355272)
+pyroom 0.4.1 (2009-04-02)
+=========================
+
+Bugfixes
+--------
+* restored python2.4 compatibility (LP:#348613)
+* use correct path for locales (LP:#348927)
+* don't fail when canceling theme save dialog (LP:#348470)
+* fixed untranslatable string (LP:#348931)
+* removed gtk as a build dependency (LP:#348742)
+* fixed keyboard shortcuts on non-qwert layouts (LP:#349715)
+* don't offer to save unchanged buffers (LP:#353718)
+
+Noteable background changes
+---------------------------
+* switched to gtk accelerators for shortcuts (re: LP:#349715)
+
+pyroom 0.4 (2009-03-23)
+=======================
+
+User visible changes
+--------------------
+
+* PyRoom has been translated into many languages (LP:#261086)
+* create nonexistant files if necessary (LP:#307257)
+* recently used files are now remembered (LP:#315873)
+* saving of custom themes (LP:#321057)
+* autosave now saves filename.txt~ instead of to /tmp (LP:#323621)
+* removed line numbering (dropped gtksourceview, see LP:#297155)
+* offer to restore from autosave backups (LP:#330260)
+* per-theme fonts replaced with global font selection
+  also offers to use gnome default fonts if applicable, i.e. if gconf
+  bindings for gconf are available (LP:#303431)
+* allow indenting of paragraph beginnings (LP:#331405)
+
+
+Noteable background changes
+---------------------------
+
+* new method of theme lookup and application (LP:#326108)
+* rewrote autosave mechanism (LP:#330045)
+* dropped dependency on gtksourceview (LP:#297155)
+* translation system should work now (LP:#335418 and LP:#272095)
+
+Bugfixes
+--------
+* disable background pixmaps that some gtk themes use (LP:#309773)
+* actually use name field in theme files instead of filenames (LP:#323617)
+* avoid deprecation warning when starting pyroom (LP:#330043)
+* stop autosaving when told to (LP:#329888)
+* stop fading working incorrectly with dark on light themes (LP:#323613)
+* removed outdated information from README (LP:#334958)
+* consistent capitalisation of themes (LP:#334004)
+* made RecentManager use optional (LP:#336814)
+* fading label should work every time now (LP:#328075)
+* window compatibility (LP:#336834, LP#336814)
+
+pyroom 0.3.2 (2008-12-03)
+=========================
+    
+User visible changes
+--------------------
+
+* added multi-monitor support (LP:#189037)
+* textbox background can be configured independantly from app background
+  (LP:#285116)
+* textbox border can be switched on/off (LP:#193855)
+
+Noteable background changes
+---------------------------
+
+* pyroom adheres to XDG directory specifications for config etc
+  (LP:#262697)
+* standard themes reside in a global dir now, not in homedirs (LP:#246133)
+* switched from gtksourceview 1 to 2, removing a lot of gnome 
+  dependencies (LP:#300684)
+
+Bugfixes
+--------
+
+* don't ask to save empty files (LP:#262798)
+* textbox size configurable in percentages, not fractures (LP:#296935)
+* can't select textbox sizes >100% any more (LP:#263046)
+* switching buffer scrolls to cursor position (LP:#270350)
+* cursor placed at file bottom on opened files (LP:#188908)
+* allow using pyroom for opening files from GUIS (LP:#282009)

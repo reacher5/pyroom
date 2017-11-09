@@ -1,0 +1,10 @@
+[theme]
+name = c64
+background = #10009C
+textboxbg = #10009C
+foreground = #9C9CFF
+border = #3B3BBD
+info = #7373FF
+padding = 8
+width = 0.45 
+height = 0.75

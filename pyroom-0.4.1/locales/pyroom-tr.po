@@ -1,0 +1,398 @@
+# Turkish translation for pyroom
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the pyroom package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pyroom\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-02-27 11:29+0100\n"
+"PO-Revision-Date: 2009-03-27 00:37+0000\n"
+"Last-Translator: Fehmican Imırgı <fcanimirgi@gmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-04-02 13:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: trunk/PyRoom/interface.glade.h:2
+msgid " %"
+msgstr " %"
+
+#: trunk/PyRoom/interface.glade.h:3
+msgid " minutes."
+msgstr " dakika."
+
+#: trunk/PyRoom/interface.glade.h:4
+msgid "<b>Autosave</b>"
+msgstr "<b>Otomatik kayıt</b>"
+
+#: trunk/PyRoom/interface.glade.h:5
+msgid "<b>Display</b>"
+msgstr "<b>Görünüm</b>"
+
+#: trunk/PyRoom/interface.glade.h:6
+msgid "<b>Text font</b>"
+msgstr "<b>Yazıtipi</b>"
+
+#: trunk/PyRoom/interface.glade.h:7
+msgid "<b>Themes</b>"
+msgstr "<b>Temalar</b>"
+
+#: trunk/PyRoom/interface.glade.h:8
+msgid ""
+"<b>Warning!</b>\n"
+"You are about to close your current document leaving unsaved changes. If you "
+"continue, any changes will be lost."
+msgstr ""
+"<b>Dikkat!</b>\n"
+"Kaydetmediğiniz değişiklikler olan dokümanınızı kapatmak üzeresiniz. Eğer "
+"devam ederseniz, tüm değişiklikler iptal edilecek."
+
+#: trunk/PyRoom/interface.glade.h:10
+msgid ""
+"<b>Warning!</b>\n"
+"You are about to quit leaving documents with unsaved changes. If you "
+"continue, you will loose any changes that you have made."
+msgstr ""
+"<b>Dikkat!</b>\n"
+"Kaydetmediğiniz değişiklikler olan dokümanlarınız varken programı kapatmak "
+"üzeresiniz. Eğer devam ederseniz, tüm değişiklikler iptal edilecek."
+
+#: trunk/PyRoom/interface.glade.h:12
+msgid "Autosave files every "
+msgstr "Dosyaları her "
+
+#: trunk/PyRoom/interface.glade.h:13
+msgid "Background color:"
+msgstr "Arkaplan rengi:"
+
+#: trunk/PyRoom/interface.glade.h:14
+msgid "Border color:"
+msgstr "Çerçeve rengi:"
+
+#: trunk/PyRoom/interface.glade.h:15
+msgid "Close without saving"
+msgstr "Kaydetmeden kapat"
+
+#: trunk/PyRoom/interface.glade.h:16
+msgid "Custom"
+msgstr "Özel"
+
+#: trunk/PyRoom/interface.glade.h:17
+msgid "Default _document font"
+msgstr "Öntanımlı _döküman yazıtipi"
+
+#: trunk/PyRoom/interface.glade.h:18
+msgid "Default _monospace font"
+msgstr "Öntanımlı _monospace yazıtipi"
+
+#: trunk/PyRoom/interface.glade.h:19
+msgid "General"
+msgstr "Genel"
+
+#: trunk/PyRoom/interface.glade.h:20
+msgid "Height:"
+msgstr "Yükseklik:"
+
+#: trunk/PyRoom/interface.glade.h:21
+msgid "Indent new paragraphs"
+msgstr "Yeni paragrafları girintile"
+
+#: trunk/PyRoom/interface.glade.h:22
+msgid "Modify line spacing (in pixels)"
+msgstr "Satır boşluğunu değiştir (piksel değerinde)"
+
+#: trunk/PyRoom/interface.glade.h:23
+msgid "Padding:"
+msgstr "Yazı ve çerçeve arasındaki boşluk:"
+
+#: trunk/PyRoom/interface.glade.h:24
+msgid "Presets:"
+msgstr "Öntanımlı ayarlar:"
+
+#: trunk/PyRoom/interface.glade.h:25
+msgid "Pyroom Preferences"
+msgstr "PyRoom Seçenekleri"
+
+#: trunk/PyRoom/interface.glade.h:26
+msgid "Save changes?"
+msgstr "Değişiklikler kaydedilsin mi?"
+
+#: trunk/PyRoom/interface.glade.h:27
+msgid "Select a font"
+msgstr "Bir yazıtipi seçin"
+
+#: trunk/PyRoom/interface.glade.h:28
+msgid "Show border"
+msgstr "Çerçeveyi göster"
+
+#: trunk/PyRoom/interface.glade.h:29
+msgid "Text color:"
+msgstr "Yazı rengi:"
+
+#: trunk/PyRoom/interface.glade.h:30
+msgid "Textbox background"
+msgstr "Yazı arkaplan rengi"
+
+#: trunk/PyRoom/interface.glade.h:31
+msgid "Theme"
+msgstr "Tema"
+
+#: trunk/PyRoom/interface.glade.h:32
+msgid "Width:"
+msgstr "Genişlik:"
+
+#: trunk/PyRoom/interface.glade.h:33
+msgid "_Custom font"
+msgstr "Özel yazıtipi"
+
+#: trunk/PyRoom/interface.glade.h:34
+msgid "_Save"
+msgstr "Kaydet"
+
+#: trunk/PyRoom/preferences.py:337
+msgid "Theme Files"
+msgstr "Tema dosyaları"
+
+#: trunk/PyRoom/preferences.py:383
+msgid "Could not save preferences file."
+msgstr "Seçenekler dosyası kaydedilemedi"
+
+#: trunk/PyRoom/preferences.py:460
+#, python-format
+msgid "Style Changed to %s"
+msgstr "Biçim %s olarak değiştirildi"
+
+#: trunk/PyRoom/gui.py:42
+#, python-format
+msgid "theme not found: %s"
+msgstr "%s teması bulunamadı."
+
+#: trunk/PyRoom/pyroom_error.py:42
+msgid ""
+"There has been an uncaught exception in pyroom.\n"
+"\n"
+"This is most likely a programming error. Please submit a bug report to "
+"launchpad"
+msgstr ""
+"Programda çözülemeyen bir hata oluştu.\n"
+"\n"
+"Bu büyük ihtimal bir kod hatası. Lütfen hata raporunu Launchpad'e yollayın."
+
+#: trunk/PyRoom/pyroom_error.py:49
+msgid "Error"
+msgstr "Hata"
+
+#: trunk/PyRoom/pyroom_error.py:52
+msgid "Details..."
+msgstr "Ayrıntılar..."
+
+#: trunk/PyRoom/cmdline.py:64
+msgid "%prog [-v] [file1] [file2]..."
+msgstr "%prog [-v] [dosya1] [dosya2]..."
+
+#: trunk/PyRoom/cmdline.py:67
+msgid ""
+"PyRoom lets you edit text files simply and efficiently in a full-screen "
+"window, with no distractions."
+msgstr ""
+"PyRoom yazılarınızı basitçe ve etkili bir şekilde, tüm ekranı kaplayan bir "
+"pencerede, oyalanmadan yazmanıza izin verir."
+
+#: trunk/PyRoom/cmdline.py:82
+#, python-format
+msgid "Welcome to Pyroom %s, type Control-H for help"
+msgstr ""
+"PyRoom a hoş geldiniz %s, Control-H ye basarak yardımı görüntüleyebilirsiniz"
+
+#: trunk/PyRoom/autosave.py:77
+#, python-format
+msgid "Could not autosave file %s"
+msgstr "%s dosyası otomatik olarak kaydedilemedi"
+
+#: trunk/PyRoom/basic_edit.py:38
+msgid "* Unnamed *"
+msgstr "* İsimsiz *"
+
+#: trunk/PyRoom/basic_edit.py:41
+msgid "Control-H: Show help in a new buffer"
+msgstr "Control-H: Yardım sayfasını göster"
+
+#: trunk/PyRoom/basic_edit.py:42
+msgid "Control-I: Show buffer information"
+msgstr "Control-I: Yazı bilgilerini göster"
+
+#: trunk/PyRoom/basic_edit.py:43
+msgid "Control-P: Shows Preferences dialog"
+msgstr "Control-P: Seçenekler kutusunu görüntüle"
+
+#: trunk/PyRoom/basic_edit.py:44
+msgid "Control-N: Create a new buffer"
+msgstr "Control-N: Yeni bir yazı başlat"
+
+#: trunk/PyRoom/basic_edit.py:45
+msgid "Control-O: Open a file in a new buffer"
+msgstr "Control-O: Yeni bir yazıda dosya aç"
+
+#: trunk/PyRoom/basic_edit.py:46
+msgid "Control-Q: Quit"
+msgstr "Control-Q: Çıkış"
+
+#: trunk/PyRoom/basic_edit.py:47
+msgid "Control-S: Save current buffer"
+msgstr "Control-S: Şu anki yazıyı kaydet"
+
+#: trunk/PyRoom/basic_edit.py:48
+msgid "Control-Shift-S: Save current buffer as"
+msgstr "Control-Shift-S: Şu anki yazıyı farklı kaydet"
+
+#: trunk/PyRoom/basic_edit.py:49
+msgid "Control-W: Close buffer and exit if it was the last buffer"
+msgstr "Control-W: Şu anki yazıyı kapatır ya da son yazıysa programı kapatır"
+
+#: trunk/PyRoom/basic_edit.py:50
+msgid "Control-Y: Redo last typing"
+msgstr "Control-Y: Son yazılanı yinele"
+
+#: trunk/PyRoom/basic_edit.py:51
+msgid "Control-Z: Undo last typing"
+msgstr "Control-Z: Son yazılanı geri al"
+
+#: trunk/PyRoom/basic_edit.py:52
+msgid "Control-Page Up: Switch to previous buffer"
+msgstr "Control-Page Up: Bir önceki yazıya geç"
+
+#: trunk/PyRoom/basic_edit.py:53
+msgid "Control-Page Down: Switch to next buffer"
+msgstr "Control-Page Down: Bir sonraki yazıya geç"
+
+#: trunk/PyRoom/basic_edit.py:56
+#, python-format
+msgid ""
+"PyRoom - distraction free writing\n"
+"Copyright (c) 2007 Nicolas Rougier, NoWhereMan\n"
+"Copyright (c) 2008 Bruno Bord and the PyRoom team\n"
+"\n"
+"Welcome to PyRoom and distraction-free writing.\n"
+"\n"
+"To hide this help window, press Control-W.\n"
+"\n"
+"PyRoom stays out of your way with formatting options and buttons, \n"
+"it is largely keyboard controlled, via shortcuts. You can find a list\n"
+"of available keyboard shortcuts later.\n"
+"\n"
+"If enabled in preferences, pyroom will save your files automatically every\n"
+"few minutes or when you press the keyboard shortcut.\n"
+"\n"
+"Commands:\n"
+"---------\n"
+"%s\n"
+"\n"
+msgstr ""
+"PyRoom - dikkat dağıtmayan yazma programı\n"
+"Copyright (c) 2007 Nicolas Rougier, NoWhereMan\n"
+"Copyright (c) 2008 Bruno Bord ve PyRoom ekibi\n"
+"\n"
+"PyRoom'a hoşgeldiniz.\n"
+"\n"
+"Bu yardım penceresinden çıkmak için Control-W'ya basın.\n"
+"\n"
+"PyRoom karşınıza dikkatinizi dağıtacak butonlar ve format\n"
+"seçenekleri çıkarmaz ve çoğunlukla klavyenizden kısayollar\n"
+"aracılığıyla kullanırsınız. Kısayolların listesini aşağıda \n"
+"bulabilirsiniz.\n"
+"\n"
+"Eğer seçeneklerden ayarlarsanız, PyRoom her birkaç\n"
+"dakikada bir otomatik olarak dosyanızı kaydeder.\n"
+"\n"
+"Kısayollar:\n"
+"---------\n"
+"%s\n"
+"\n"
+
+#: trunk/PyRoom/basic_edit.py:414
+msgid " (modified)"
+msgstr " (değiştirildi)"
+
+#: trunk/PyRoom/basic_edit.py:417
+#, python-format
+msgid ""
+"Buffer %(buffer_id)d: %(buffer_name)s%(status)s, %(char_count)d "
+"character(s), %(word_count)d word(s), %(lines)d line(s)"
+msgstr ""
+"%(buffer_id)d. yazı: %(buffer_name)s%(status)s, %(char_count)d karakter, "
+"%(word_count)d sözcük, %(lines)d satır"
+
+#: trunk/PyRoom/basic_edit.py:435
+msgid "Nothing more to undo!"
+msgstr "Geri alınacak daha fazla bir şey yok!"
+
+#: trunk/PyRoom/basic_edit.py:444
+msgid "Nothing more to redo!"
+msgstr "İleri alınacak bir şey yok!"
+
+#: trunk/PyRoom/basic_edit.py:452
+msgid "Restore backup?"
+msgstr "Yedekten geri yüklensin mi?"
+
+#: trunk/PyRoom/basic_edit.py:461
+msgid ""
+"Backup information for this file has been found.\n"
+"Open those instead of the original file?"
+msgstr ""
+"Bu dosya için bir yedek bulundu.\n"
+"Dosyanın orjinal hali yerine yedek açılsın mı?"
+
+#: trunk/PyRoom/basic_edit.py:499 trunk/PyRoom/basic_edit.py:592
+msgid "Closed, no files selected"
+msgstr "Kapandı, hiçbir dosya seçilmedi"
+
+#: trunk/PyRoom/basic_edit.py:528
+#, python-format
+msgid "Unable to open %(filename)s."
+msgstr "%(filename)s dosyası açılamadı."
+
+#: trunk/PyRoom/basic_edit.py:532
+msgid " You do not have permission to open the file."
+msgstr " Bu dosyayı açmak için izniniz yok."
+
+#: trunk/PyRoom/basic_edit.py:537
+#, python-format
+msgid "Unable to open %s\n"
+msgstr "%s açılamıyor\n"
+
+#: trunk/PyRoom/basic_edit.py:539
+#, python-format
+msgid "File %s open"
+msgstr "%s dosyasını aç"
+
+#: trunk/PyRoom/basic_edit.py:563
+#, python-format
+msgid "File %s saved"
+msgstr "%s dosyası kaydedildi"
+
+#: trunk/PyRoom/basic_edit.py:567
+#, python-format
+msgid "Unable to save %(filename)s."
+msgstr "%(filename)s dosyası kaydelimedi."
+
+#: trunk/PyRoom/basic_edit.py:570
+msgid " You do not have permission to write to the file."
+msgstr " Dosyaya yazmak için izniniz yok."
+
+#: trunk/PyRoom/basic_edit.py:574
+#, python-format
+msgid "Unable to save %s\n"
+msgstr "%s yazılamadı\n"
+
+#: trunk/PyRoom/basic_edit.py:659
+msgid "Could not delete autosave file."
+msgstr "Otomatik kayıt dosyası silinemedi."
+
+#: trunk/PyRoom/basic_edit.py:676
+#, python-format
+msgid "Switching to buffer %(buffer_id)d (%(buffer_name)s)"
+msgstr "Yazı %(buffer_id)d açıldı (%(buffer_name)s)"

@@ -1,0 +1,10 @@
+[theme]
+name = Lo Contrast 
+background = #6F6F6F
+textboxbg = #6F6F6F
+foreground = #212121
+border = #2F455B
+info = #C44700
+padding = 8
+width = 0.45 
+height = 0.75
