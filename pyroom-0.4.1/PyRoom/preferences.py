@@ -44,7 +44,7 @@ import autosave
 
 DEFAULT_CONF = {
     'visual':{
-        'theme':'green',
+        'theme':'Solarized Dark',
         'showborder':'1',
         'linespacing':'2',
         'custom_font':'Sans 12',

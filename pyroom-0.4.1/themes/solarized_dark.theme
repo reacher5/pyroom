@@ -1,0 +1,10 @@
+[theme]
+name = SolarizedDark 
+background = #073642
+textboxbg = #073642
+foreground = #839496
+border = #586EEE
+info = #93A1A1
+padding = 8
+width = 0.45 
+height = 0.75
